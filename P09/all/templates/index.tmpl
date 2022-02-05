@@ -1,0 +1,14 @@
+{{define "templates_index.templ"}}
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+   <title>How to use Gin</title>
+   <link rel="stylesheet" href="newname/index.css">
+</head>
+<body>
+    {{.title | safe }}
+    {{safe .title }}
+<script src="newname/test.js"></script>
+</body>
+</html>
+{{end}}
